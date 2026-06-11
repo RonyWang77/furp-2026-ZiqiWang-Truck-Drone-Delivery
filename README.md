@@ -29,9 +29,9 @@ This is your project home for the FURP programme. **Fork this template**, rename
 | Project title | Ground-Air Collaborative EVRP-TW: Hybrid Optimization for Truck-Drone Delivery |
 | Project tag | Truck-Drone Delivery |
 | Track | Research |
-| Supervising faculty | _..._ |
+| Supervising faculty | FURP |
 | Project lead | Tianxiang Cui |
-| Team or individual | _..._ |
+| Team or individual | individual |
 | Cited paper being replicated | _title + link/DOI_ |
 
 **One-line summary:** _What is your project about? (1–2 sentences)_
