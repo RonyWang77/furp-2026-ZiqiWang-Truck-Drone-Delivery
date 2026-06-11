@@ -30,9 +30,9 @@
 
 <!-- =================  YOUR ENTRIES BELOW  ================= -->
 
-### Week 1 — YYYY-MM-DD
+### Week 1 — 2026-06-08
 
-**Attended this week's meeting:** Yes / No
+**Attended this week's meeting:** Yes 
 
 **Progress this week**
 - Set up repository from the FURP template.
