@@ -46,7 +46,6 @@
   All examples executed correctly and produced expected outputs.
 
 **Challenges & blockers**
-- I cannot register a Google account. This prevents me from using the Google Distance Matrix API to     obtain real‑world road distances for my project. I am currently investigating domestic map APIs       (e.g., Tencent Trucking Matrix, Baidu, Gaode) as replacements.
 - I understand that the overall task is to reproduce results from published VRP papers (likely          involving truck‑drone coordinated delivery). However, I am still unsure this understanding is         correct or not. I am also unsure how to integrate the learned OR‑Tools techniques into a complete     research pipeline.
 
 **Next steps**
