@@ -29,6 +29,25 @@
 ---
 
 <!-- =================  YOUR ENTRIES BELOW  ================= -->
+### Week N — YYYY-MM-DD
+
+**Attended this week's meeting:** Yes / No (if No, did you email leave? Yes / No)
+
+**Progress this week**
+- _What did you actually do / finish?_
+
+**Challenges & blockers**
+- _What got in the way? What are you stuck on?_
+
+**Next steps**
+- _What will you do next week?_
+
+**Hours spent (optional):** _e.g. 6h_
+
+**Links (optional):** _commits, notebooks, docs, datasets..._
+
+---
+
 
 ### Week 1 — 2026-06-08
 
