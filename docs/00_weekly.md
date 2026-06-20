@@ -29,9 +29,9 @@
 ---
 
 <!-- =================  YOUR ENTRIES BELOW  ================= -->
-### Week N — YYYY-MM-DD
+### Week 2 — 2026-06-15
 
-**Attended this week's meeting:** Yes / No (if No, did you email leave? Yes / No)
+**Attended this week's meeting:** Yes 
 
 **Progress this week**
 - _What did you actually do / finish?_
