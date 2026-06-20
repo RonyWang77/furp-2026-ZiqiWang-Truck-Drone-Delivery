@@ -34,7 +34,9 @@
 **Attended this week's meeting:** Yes 
 
 **Progress this week**
-- _What did you actually do / finish?_
+- Downloaded and configured the open-source project py-ga-VRPTW to build the experimental environment for solving VRPTW problems using Genetic Algorithm (GA).
+- Installed the core module gavrptw.core into the Python virtual environment as a local editable package, enabling direct import and further algorithm development.
+- 
 
 **Challenges & blockers**
 - _What got in the way? What are you stuck on?_
