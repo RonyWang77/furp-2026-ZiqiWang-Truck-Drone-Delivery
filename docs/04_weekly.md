@@ -4,7 +4,7 @@
 
 **Attended this week's meeting:** Yes 
 
-# Step 1: Feasibility-First Improvement for E-VRPTW Reproduction  
+# Feasibility-First Improvement for E-VRPTW Reproduction  
 ## 1. Overview 
 
 This week’s work continued from last week’s E-VRPTW reproduction experiments. Last week, the basic framework for calling OR-Tools, GA, PyVRP, and POMO was completed, but the results showed low feasibility. Many generated routes could cover customers, but violated time window, battery, or charging constraints.
@@ -243,22 +243,18 @@ For the large-scale instance, GA used the fewest vehicles and achieved the short
 ## 9. Conclusion 
 This week successfully improved the feasibility of the E-VRPTW reproduction framework. By adding a feasibility-first repair mechanism and connecting it to OR-Tools, GA, PyVRP, and ALNS, all tested methods achieved 100% feasibility on R101, C101, and RC101 instances with 10, 25, and 50 customers.
 
-The main findings are:
-GA achieved the best route quality but required the longest runtime.
-
-OR-Tools provided a strong balance between solution quality and efficiency.
-
-PyVRP was fast but depended strongly on the repair mechanism.
-
-ALNS is promising for future complex extensions, but its operators need further improvement.
-
+The main findings are:<br>
+GA achieved the best route quality but required the longest runtime.<br>
+OR-Tools provided a strong balance between solution quality and efficiency.<br>
+PyVRP was fast but depended strongly on the repair mechanism.<br>
+ALNS is promising for future complex extensions, but its operators need further improvement.<br>
 The feasibility-first repair mechanism effectively solved the low-feasibility problem from last week.
 
 
 ## 10. Next Plan 
-Next week, the work will focus on:
-Improve ALNS destroy and repair operators.
-Add more detailed evaluation metrics, such as waiting time, charging time, and total cost.
+Next week, the work will focus on:<br>
+Improve ALNS destroy and repair operators.<br>
+Add more detailed evaluation metrics, such as waiting time, charging time, and total cost.<br>
 Continue studying nonlinear charging models for future EVRPTW-NL research.
 
 
