@@ -10,7 +10,7 @@
 This week’s work continued from last week’s E-VRPTW reproduction experiments. Last week, the basic framework for calling OR-Tools, GA, PyVRP, and POMO was completed, but the results showed low feasibility. Many generated routes could cover customers, but violated time window, battery, or charging constraints.
 
 Therefore, the focus this week shifted from “generating routes using different algorithms” to “generating feasible routes under complex constraints.” A feasibility-first repair mechanism was added, and ALNS was introduced as a new method for handling complex routing constraints.
----
+
 
 ## 2. Main Improvements 
 
@@ -215,55 +215,15 @@ R101_50
 For the large-scale instance, GA used the fewest vehicles and achieved the shortest distance, but required the longest runtime.
 
 ## 8. Discussion 
-OR-Tools
-Advantages:
 
-Fast runtime.
-Stable feasible solutions.
-Time windows are modeled through Time Dimension.
+| Method | Advantages | Disadvantages |
+|---|---|---|
+| OR-Tools | Fast runtime.<br>Stable feasible solutions.<br>Time windows are modeled through Time Dimension. | Battery and charging constraints are mainly handled by post-repair.<br>Further modeling is needed for a stricter E-VRPTW formulation. |
+| GA | Best average vehicle count.<br>Shortest average distance.<br>Flexible encoding and fitness design. | Long runtime.<br>Sensitive to parameters and random search. |
+| PyVRP | Fast and stable.<br>Good at VRPTW-style route generation. | Charging constraints are not directly modeled.<br>Final solution quality depends heavily on repair. |
+| ALNS | Suitable structure for complex constraints.<br>Destroy/repair mechanism can naturally include charging and battery logic.<br>More practical than POMO for this stage. | Current operators are still basic.<br>Route quality is not yet better than GA or OR-Tools. |
 
-Disadvantages:
-
-Battery and charging constraints are mainly handled by post-repair.
-Further modeling is needed for a stricter E-VRPTW formulation.
-
-
-GA
-Advantages:
-
-Best average vehicle count.
-Shortest average distance.
-Flexible encoding and fitness design.
-
-Disadvantages:
-
-Long runtime.
-Sensitive to parameters and random search.
-
-PyVRP
-Advantages:
-
-Fast and stable.
-Good at VRPTW-style route generation.
-
-Disadvages：
-
-Charging constraints are not directly modeled.
-Final solution quality depends heavily on repair.
-
-ALNS
-Advantages:
-
-Suitable structure for complex constraints.
-Destroy/repair mechanism can naturally include charging and battery logic.
-More practical than POMO for this stage.
-
-Disadvantages:
-
-Current operators are still basic.
-Route quality is not yet better than GA or OR-Tools.
-
-## 9. Conclusion / 本周结论
+## 9. Conclusion 
 This week successfully improved the feasibility of the E-VRPTW reproduction framework. By adding a feasibility-first repair mechanism and connecting it to OR-Tools, GA, PyVRP, and ALNS, all tested methods achieved 100% feasibility on R101, C101, and RC101 instances with 10, 25, and 50 customers.
 
 The main findings are:
@@ -278,7 +238,7 @@ ALNS is promising for future complex extensions, but its operators need further 
 The feasibility-first repair mechanism effectively solved the low-feasibility problem from last week.
 
 
-14. Next Plan / 下周计划
+## 10. Next Plan 
 Next week, the work will focus on:
 Improve ALNS destroy and repair operators.
 Add more detailed evaluation metrics, such as waiting time, charging time, and total cost.
