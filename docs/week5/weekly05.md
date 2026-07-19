@@ -76,3 +76,13 @@ EVRPTW_Schneider2014/
 | `hybrid_solver.py` | Added `solve_basic_ga`, `solve_basic_alns`, and `solve` |
 | `run_experiment.py` | Added a unified script to compare Basic GA, Basic ALNS, and GA+ALNS |
 | `verify_minimal.py` | Added a minimal validation script |
+
+The basic GA+ALNS process was:
+GA population initialization
+-> GA selection, crossover, mutation
+-> GA best individual
+-> convert individual to routes
+-> convert routes to ALNS state
+-> ALNS destroy/repair
+-> evaluate ALNS result
+-> return better feasible solution
