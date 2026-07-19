@@ -211,7 +211,7 @@ The idea of Top-K is algorithmically reasonable, but the current result does not
 
 Compared with the original GA, the proposed hybrid algorithm provides several advantages.
 
-Stronger exploration and exploitation balance
+1.Stronger exploration and exploitation balance:
 
 GA performs global exploration by evolving a population of solutions, while ALNS focuses on intensive local improvement.
 
@@ -230,12 +230,43 @@ nonlinear charging constraints (future work).
 
 Therefore, the hybrid framework has better scalability than the original GA.
 
-Improved solution quality
+2.Improved solution quality:
 
 Instead of stopping after GA evolution, the algorithm performs an additional local optimization stage, which provides more opportunities to escape local optima and improve routing quality.
 
-Higher extensibility
+3.Higher extensibility:
 
 The hybrid architecture is modular.
 
 Future neighborhood operators can be added without redesigning the GA framework, making the method suitable for increasingly complex EVRP variants.
+
+### 4. Future Research Direction: Truck-Drone Collaborative E-VRPTW-NL
+### 4.1 Problem Extension
+The next research goal is to extend the current E-VRPTW into:
+Truck-Drone Collaborative E-VRPTW-NL
+
+This problem combines:<br>
+Electric truck routing<br>
+Drone-assisted delivery<br>
+Customer time windows<br>
+Truck battery constraints<br>
+Drone battery constraints<br>
+Charging stations<br>
+Linear charging<br>
+Nonlinear charging<br>
+Full recharge<br>
+Partial recharge<br>
+Truck-drone synchronization<br>
+
+The future experiments should compare four charging modes.
+| Mode | Charging Curve | Recharge Policy |
+|---|---|---|
+| LC-FR | Linear charging | Full recharge |
+| LC-PR | Linear charging | Partial recharge |
+| NLC-FR | Nonlinear charging | Full recharge |
+| NLC-PR | Nonlinear charging | Partial recharge |
+
+### 5. Conclusion
+This week’s work shows that GA+ALNS should not be considered automatically superior to GA or ALNS. The simplest post-processing version did not improve GA. The strengthened ALNS version produced a small improvement, but it also increased runtime and travel distance.<br>
+The main contribution of this week is the construction of a more complete experimental and diagnostic framework. This framework makes it possible to compare different hybrid mechanisms fairly and identify which operators are actually useful.<br>
+For future work, the research direction should move from simple truck-only E-VRPTW toward truck-drone collaborative E-VRPTW-NL. The key modeling challenges will be drone launch/recovery, truck-drone synchronization, drone battery constraints, nonlinear charging, and partial recharge decisions.
