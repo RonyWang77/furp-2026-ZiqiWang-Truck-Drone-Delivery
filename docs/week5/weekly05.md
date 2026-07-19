@@ -67,3 +67,12 @@ EVRPTW_Schneider2014/
       run_experiment.py
       verify_minimal.py
       README.md
+
+
+| File | Modification |
+|---|---|
+| `config.py` | Added default parameters for GA and ALNS |
+| `solution_adapter.py` | Added conversion between GA individual, routes, and ALNS state |
+| `hybrid_solver.py` | Added `solve_basic_ga`, `solve_basic_alns`, and `solve` |
+| `run_experiment.py` | Added a unified script to compare Basic GA, Basic ALNS, and GA+ALNS |
+| `verify_minimal.py` | Added a minimal validation script |
