@@ -3,3 +3,4 @@
 除此之外，本周确定了ortools和pyvrp两种求解器仅作为解决仅卡车问题的对照方法，而对GA,ALNS,GA+ALNS方法做细致优化。
 对方法的优化集中在GA的decoder,ALNS算子的研究以及最终两种方法的协调配合。
 具体进度都逐步记载在modeling_and_progress.md
+尽快完成对方法的针对性改造优化后，会进行完整的实验所需的消融实验等
