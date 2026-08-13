@@ -1,0 +1,4 @@
+﻿method,runs,runtime_median,runtime_mean,runtime_std,runtime_max,runtime_gt_500_count,runtime_gt_1000_count
+GA,36,76.122086,402.306639,1811.42546,10922.699444,2,2
+ALNS,36,90.529717,456.633936,1835.505163,10929.261842,2,2
+Hybrid,36,63.404685,62.724606,6.03889,73.821376,0,0

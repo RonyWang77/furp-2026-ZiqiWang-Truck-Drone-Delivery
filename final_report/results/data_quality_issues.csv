@@ -1,0 +1,7 @@
+﻿detected issue,affected rows,whether corrected,correction rule
+main row count,108,not corrected,Expected 108 from config; observed 108.
+duplicate runs,0,not corrected,"Duplicates are reported, not deleted."
+missing expected combinations,0,not corrected,No imputation.
+infeasible runs,31,not corrected,Retained for feasible-rate analysis.
+runtime > 500s,4,not corrected,Outliers retained.
+feasible-total_violation inconsistency,0,not corrected,Reported only.

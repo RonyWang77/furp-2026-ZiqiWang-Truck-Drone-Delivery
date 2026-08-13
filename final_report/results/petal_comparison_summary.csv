@@ -1,0 +1,4 @@
+﻿instance,source_instance,customer_count,method,charging_policy,feasible,vehicle_count,total_distance,truck_distance,drone_distance,charging_time,waiting_time,petal_score,crossing_count,route_compactness,sector_coherence,runtime_seconds
+R101_25_seed1987_td,R101,25,ga_td,NPC,True,7,810.202366,566.42849,243.773876,31.899164,537.965463,577.401804,11.0,13.363109,1.594461,94.938602
+R101_25_seed1987_td,R101,25,alns_full,NPC,True,10,780.638024,649.407477,131.230547,26.211375,817.855782,411.92678,8.0,6.684803,0.577526,120.773719
+R101_25_seed1987_td,R101,25,hybrid_diverse_topk,NPC,True,7,812.253767,588.784952,223.468815,51.151597,503.629444,829.042385,16.0,13.363109,1.594461,82.90977

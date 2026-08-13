@@ -1,0 +1,5 @@
+﻿instance,source_instance,method,charging_policy,seed,runtime_seconds,feasible,vehicle_count,total_distance,paper_cost
+RC101_25_seed1987_td,RC101,GA,LFC,1987,1083.48245,True,9,964.869714,1226.576039
+R101_25_seed42_td,R101,GA,NFC,42,10922.699444,False,7,992.996183,1292.663018
+C101_25_seed42_td,C101,ALNS,NFC,42,10929.261842,False,7,792.28255,1807.82874
+RC101_25_seed42_td,RC101,ALNS,NPC,42,2384.601612,True,8,970.163119,1157.186058

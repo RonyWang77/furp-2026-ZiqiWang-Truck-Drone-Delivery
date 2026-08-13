@@ -1,0 +1,4 @@
+﻿method,runs,feasible_rate,mean_vehicle_count,std_vehicle_count,mean_total_distance,std_total_distance,mean_paper_cost,std_paper_cost,mean_completion_time,mean_truck_distance,mean_drone_distance,mean_charging_time,mean_waiting_time,mean_sync_wait,mean_runtime_seconds,mean_candidate_similarity,mean_hybrid_local_successes,mean_stagnation_injected,paper_cost_improved_count,paper_distance_improved_count
+ga,1,100.0,7.0,0.0,810.202366,0.0,977.60000225,0.0,216.396098,566.42849,243.773876,31.899164,537.965463,4.028426,94.938602,0.0,0.0,0.0,0,0
+alns_full,1,100.0,10.0,0.0,780.638024,0.0,1011.3133445,0.0,212.027754,649.407477,131.230547,26.211375,817.855782,0.0,120.773719,0.0,0.0,0.0,0,0
+hybrid_diverse_topk,1,100.0,7.0,0.0,812.253767,0.0,990.3198315000001,0.0,212.027754,588.784952,223.468815,51.151597,503.629444,4.028426,82.90977,1.0,2.0,0.0,0,0

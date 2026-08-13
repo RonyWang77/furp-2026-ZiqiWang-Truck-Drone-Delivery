@@ -1,0 +1,4 @@
+﻿instance,charging_policy,method,feasible,vehicle_count,total_distance,paper_cost,runtime_seconds,delta_distance_vs_ga,delta_cost_vs_ga,winner_vs_ga,candidate_types,selected_candidate_types
+R101_25_seed1987_td,NPC,ga,True,7,810.202366,977.600002,94.938602,0.0,0.0,,,
+R101_25_seed1987_td,NPC,alns_full,True,10,780.638024,1011.313344,120.773719,-29.564342,33.713342,ga,,
+R101_25_seed1987_td,NPC,hybrid_diverse_topk,True,7,812.253767,990.319832,82.90977,2.051401,12.719829,ga,"balanced,distance_oriented,drone_aggressive,time_window_oriented,vehicle_oriented","drone_aggressive,balanced,distance_oriented"

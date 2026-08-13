@@ -1,0 +1,9 @@
+﻿Topic,Status,Use
+Solomon VRPTW,[REFERENCE NEEDED],Benchmark motivation and C/R/RC instance design.
+Schneider E-VRPTW,"local paper/deep-reading evidence exists, metadata should be verified",E-VRPTW source problem.
+ETRD-NL,"local paper/deep-reading evidence exists, metadata should be verified",Synchronization and nonlinear/partial charging context.
+ALNS,[REFERENCE NEEDED],Method background.
+GA for routing,[REFERENCE NEEDED],Method background.
+Hybrid metaheuristics,[REFERENCE NEEDED],Hybrid motivation.
+Truck-drone routing with time windows,[REFERENCE NEEDED],Problem positioning.
+Nonlinear and partial EV charging,[REFERENCE NEEDED],Charging policy discussion.

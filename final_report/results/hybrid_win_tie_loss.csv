@@ -1,0 +1,3 @@
+﻿method,vs,wins,ties,losses,feasible_paired_delta_paper_cost_mean,feasible_paired_delta_paper_cost_median
+Hybrid,GA,18,5,13,-15.170217,-6.00501
+Hybrid,ALNS,25,0,11,-111.195871,-34.200711

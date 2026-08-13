@@ -1,0 +1,7 @@
+﻿Contribution,RQ,Evidence,Table/Figure,Limitation
+Unified Truck-Drone EVRPTW-NL computational model,RQ1,"final model, simulator, evaluator","model-code map, problem schematic","engineering model, not complete real-world physics"
+Constraint-aware GA adaptation,RQ1/RQ2,"solve_ga.py, ga_tools.py, final results","GA method table, overall summary",not globally optimal
+Independent ALNS with diagnostics,RQ1/RQ2,ALNS code and operator summary,operator bubble/heatmap,operator effects uneven
+Diverse Top-K GA-ALNS Hybrid,RQ5,hybrid code and diagnostics,"win/tie/loss, paired deltas","conditional, not universal dominance"
+Charging policy analysis,RQ4,charging.py and final 108 rows,2x2 charging figure,segmented approximation
+Runtime robustness analysis,RQ6,runtime fields,runtime ECDF/outlier table,no profiling proof
