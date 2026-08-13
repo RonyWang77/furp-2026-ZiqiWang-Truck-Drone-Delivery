@@ -88,7 +88,7 @@ Without these constraints a route could begin in mid-network or load more freigh
 A mission is $m=(k,\ell_m,P_m,r_m)$, where launch $\ell_m$ and recovery $r_m$ occur on the same truck route $R_k$, with truck positions satisfying
 
 $$
-\operatorname{pos}_{R_k}(\ell_m)<\operatorname{pos}_{R_k}(r_m).
+\mathrm{pos}_{R_k}(\ell_m)<\mathrm{pos}_{R_k}(r_m).
 $$
 
 The stored `drone_route` starts at launch, ends at recovery, and may contain multiple customers and existing stations. Drone-served customers are removed from truck service. Missions belonging to one route must not overlap in truck-route order. Without these rules the drone could be recovered before launch, recovered by another truck, or serve a customer twice. `_check_drone_tasks` records `drone_mission`; cross-truck recovery is outside the frozen model.
